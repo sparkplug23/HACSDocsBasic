@@ -5,9 +5,10 @@ description: Comprehensive list of Tasmota commands and how to use them
 
 ## Lights
 
-Command|Accepts Type|Range|Example|Notes
-:---|:---|:---|:---|:---
-AnimationEnable<a class="cmnd" id="AnimationEnable"></a>|@1 <BR> @2 | `Solid RGBCCT` <BR> `Colour Select` <BR> `Slow Glow`, `Blend`
+Command|Options|Notes&ExampleJSON
+:---|:---|:---
+AnimationEnable<a class="cmnd" id="AnimationEnable"></a> | `Numbers, 0..1` <BR> `Solid RGBCCT` <BR> `Colour Select` <BR> `Slow Glow`, `Blend` <BR> `FirePlace01` | Example <BR> `{"AnimationEnable":1}`
+Effects.Function<a class="cmnd" id="Effects.Function"></a> | `Numbers, 0..1` <BR> `Solid RGBCCT` <BR> `Colour Select` <BR> `Slow Glow`, `Blend` <BR> `FirePlace01` | Example <BR> `{"Effects":{"Function":1}}`<BR> `{"Effects":{"Function":"Slow Glow"}}`
 AnimationMode<a class="cmnd" id="AnimationMode"></a>|@1 <BR> @2
 Brightness<a class="cmnd" id="Brightness"></a>|Brightness <BR> `0..100`
 Brightness_255<a class="cmnd" id="Brightness_255"></a>|Brightness full range <BR> `0..255`[`SetOption13`](#setoption13) 
