@@ -1,6 +1,6 @@
 # HACSDocsBasic
  Simple md docs
 
-before
+beforer
 [/Lights/Lights](Lights.md)
 after
