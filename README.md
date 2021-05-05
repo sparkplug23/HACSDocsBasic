@@ -1,4 +1,4 @@
 # HACSDocsBasic
  Simple md docs
 
-[/Lights](Lights.md)
+[/Lights/Lights](Lights.md)
