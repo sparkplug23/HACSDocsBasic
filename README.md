@@ -1,0 +1,2 @@
+# HACSDocsBasic
+ Simple md docs
