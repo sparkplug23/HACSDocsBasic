@@ -7,7 +7,7 @@ description: Comprehensive list of Tasmota commands and how to use them
 
 Command|Options|Notes&ExampleJSON
 :---|:---|:---
-AnimationEnable<a class="cmnd" id="AnimationEnable"></a> | `Numbers, 0..1` <BR> `Solid RGBCCT` <BR> `Colour Select` <BR> `Slow Glow`, `Blend` <BR> `FirePlace01` | Example <BR> `{"AnimationEnable":1}`
+AnimationEnable<a class="cmnd" id="AnimationEnable"></a> | `Bool, 0,1` | Example <BR> `{"AnimationEnable":1}`
 Effects.Function<a class="cmnd" id="Effects.Function"></a> | `Numbers, 0..1` <BR> `Solid RGBCCT` <BR> `Colour Select` <BR> `Slow Glow`, `Blend` <BR> `FirePlace01` | Example <BR> `{"Effects":{"Function":1}}`<BR> `{"Effects":{"Function":"Slow Glow"}}`
 AnimationMode<a class="cmnd" id="AnimationMode"></a>|@1 <BR> @2
 Brightness<a class="cmnd" id="Brightness"></a>|Brightness <BR> `0..100`
